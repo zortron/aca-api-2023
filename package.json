@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.6.0",
+    "aws-jwt-verify": "^4.0.0",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "jwk-to-pem": "^2.0.5",
+    "jwks-rsa": "^3.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
